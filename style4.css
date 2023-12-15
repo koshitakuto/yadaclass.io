@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/*********************************************************************
+*
+*  For HOME
+*
+*********************************************************************/
+
+/* ---------------------------------------------------- */
+/* bg_1_wrap */
+/* ---------------------------------------------------- */
+.bg_1_wrap {
+    background-image: url();
+    background-size: cover;
+    background-position: center top;
+}
+
+@media (max-width: 767px) {
+    .bg_1_wrap {
+        background-image: none;
+    }
+}
+
+
+/* ---------------------------------------------------- */
+/* sec_mv_wrap */
+/* ---------------------------------------------------- */
+.sec_mv_wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sec_mv_wrap .ttl_1 {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.sec_mv_wrap .img_1 {
+    padding-top: 60px;
+}
+
+.sec_mv_wrap .img_1 img {
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4)) drop-shadow(0 0 0 rgba(0, 0, 0, 0.4));
+}
+
+@media (max-width: 767px) {
+    .sec_mv_wrap {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-image: url();
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .sec_mv_wrap .ttl_1 {
+        margin: 0 auto;
+        width: 35%;
+    }
+
+    .sec_mv_wrap .img_1 {
+        padding-top: 40px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------------- */
+/* sec_pickup_wrap */
+/* ---------------------------------------------------- */
+.sec_pickup_wrap .bnr_1 {
+    display: block;
+    margin-bottom: 90px;
+}
+
+
+.sec_pickup_wrap .clms_wrap_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_pickup_wrap .clms_wrap_1>.clm_wrap:nth-of-type(2) {
+    flex: none;
+    width: 420px;
+    order: 2;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .ttl {
+    font-size: 6.0rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .desc {
+    margin-bottom: 20px;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .yt {
+    padding: 30px 0;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.sec_pickup_wrap .clms_wrap_1 .yt>div {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .yt iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .btn_wrap {
+    display: flex;
+}
+
+.sec_pickup_wrap .clms_wrap_1 .btn_wrap>*+* {
+    margin-left: 20px;
+}
+
+.sec_pickup_wrap .spotify {
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .sec_pickup_wrap .bnr_1 {
+        margin-bottom: 40px;
+    }
+
+    .sec_pickup_wrap .clms_wrap_1 {
+        display: block;
+    }
+
+    .sec_pickup_wrap .clms_wrap_1>.clm_wrap:nth-of-type(2) {
+        margin-top: 30px;
+        width: auto;
+    }
+
+    .sec_pickup_wrap .clms_wrap_1 .ttl {
+        font-size: 4.5rem;
+    }
+
+    .sec_pickup_wrap .clms_wrap_1 .desc {
+        margin-bottom: 20px;
+    }
+
+    .sec_pickup_wrap .clms_wrap_1 .yt {
+        border-radius: 15px;
+    }
+
+    .sec_pickup_wrap .spotify {
+        margin-top: 20px;
+    }
+}
+
+.col_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* 既存のスタイルに追加するか、新しいスタイルシートとして追加します */
+
+/* ダウンロードボタンのスタイル */
+.download-button {
+    display: inline-block;
+    background-color: #000055;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    float: right;
+  }
+  
+  .download-button:hover {
+    background-color: #000055;
+  }
+
+/* スタイルの適用 */
+.info-text {
+    font-size: 100px; /* テキストの大きさを調整 */
+    color: #000; /* テキストの色を変更 */
+}
