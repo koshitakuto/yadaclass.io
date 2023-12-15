@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*********************************************************************
+*
+*  For about
+*
+*********************************************************************/
+
+/* ---------------------------------------------------- */
+/* sec_ttl_wrap */
+/* ---------------------------------------------------- */
+.sec_ttl_wrap .ttl_1 {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------- */
+/* sec_concept_wrap */
+/* ---------------------------------------------------- */
+.sec_concept_wrap {
+  height: 1000px;
+  background-image: url(images/c9c_sea.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sec_concept_wrap .box_1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  padding: 30px 20px;
+  width: auto;
+  color: #fff;
+  border: 1px solid #fff;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sec_concept_wrap .ttl_1 {
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.sec_concept_wrap .desc_1 {
+  font-size: 1.8rem;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sec_concept_wrap .copyright {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  .sec_concept_wrap {
+    height: auto;
+  }
+
+  .sec_concept_wrap .box_1 {
+    position: static;
+    transform: translate(0%, 0%);
+    padding: 30px 15px;
+    width: auto;
+  }
+
+  .sec_concept_wrap .ttl_1 {
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+  }
+
+  .sec_concept_wrap .desc_1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* sec_overview_wrap */
+/* ---------------------------------------------------- */
+.sec_overview_wrap .list table {
+  width: 100%;
+  border: 1px solid #c9c9c9;
+}
+
+.sec_overview_wrap .list caption {
+  padding-bottom: 30px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sec_overview_wrap .list th {
+  padding: 15px 30px;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid #c9c9c9;
+  letter-spacing: 0.05em;
+}
+
+.sec_overview_wrap .list td {
+  padding: 15px 30px;
+  border: 1px solid #c9c9c9;
+  letter-spacing: 0.05em;
+}
+
+.sec_overview_wrap .comname {
+  display: inline-block;
+}
+
+.sec_overview_wrap .com_1 {
+  width: 100px;
+}
+
+.sec_overview_wrap .com_2 {
+  width: 150px;
+}
+
+@media (max-width: 767px) {
+  .sec_overview_wrap .list table {
+    font-size: 1.2rem;
+  }
+
+  .sec_overview_wrap .list caption {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .sec_overview_wrap .list th {
+    padding: 10px 10px;
+    letter-spacing: 0em;
+  }
+
+  .sec_overview_wrap .list td {
+    padding: 10px 10px;
+    letter-spacing: 0em;
+  }
+  .sec_overview_wrap .com_1 {
+    width: 80px;
+  }
+
+  .sec_overview_wrap .com_2 {
+    width: 120px;
+  }
+}
